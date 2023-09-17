@@ -24,14 +24,6 @@ export function VideoCastis() {
         />
         </View >
         
-        <View style={styles.buttons}>
-          <Button
-            title={videoStatus.isPlaying ? 'Pause' : 'Play'}
-            onPress={() =>
-              videoStatus.isPlaying ? video.current.pauseAsync() : video.current.playAsync()
-            }
-          />
-        </View>
       </View>
     </View>
   );

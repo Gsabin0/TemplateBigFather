@@ -4,19 +4,19 @@ export const styles = StyleSheet.create ({
 
 
 container:{
-    backgroundColor: "#212121",
+    backgroundColor: "#392379",
     flex: 1,
     
 },
 
 textTitle:{
-color: "#FFF",
+color: "#000000",
 fontSize:25,
 
 },
 
 header:{
-marginTop:20,
+marginTop:30,
 padding:30,
 flexDirection:"row",
 justifyContent:"space-between",
@@ -28,7 +28,7 @@ search:{
     justifyContent:"center",
     flexDirection:"row",
     alignItems:"center",
-    borderColor:"rgba(144,149,160,0.5)",
+    borderColor:"#000000",
     borderStyle:"solid",
     borderWidth: 1,
     borderTopLeftRadius:40,
@@ -63,7 +63,7 @@ viewSemiTitle:{
 },
 
 textSemiTitle:{
-    color:"#fff",
+    color:"#000000",
     fontSize:20,
 },
 
@@ -75,7 +75,7 @@ boby:{
 },
 
 viewSemiTitleGin:{
-    marginLeft:35,
+    marginLeft:40,
     marginTop:20,
 },
 

@@ -7,9 +7,12 @@ export const styles = StyleSheet.create({
         width: 161,
         height: 226,
         borderRadius: 14,
-        backgroundColor: '#424242',
-        marginRight: 30,
-        marginTop: 15,
+        backgroundColor: '#C0C0C0',
+        marginRight: 10,
+        marginTop: 50,
+        borderColor:"#000000",
+        borderStyle:"solid",
+        borderWidth: 1,
 
     },
 
@@ -33,9 +36,10 @@ export const styles = StyleSheet.create({
     },
 
     textInfoDrinks:{
-        color:'#fff',
-        marginTop:5,
+        color:'#000000',
+        marginTop:3,
         marginLeft: 5,
+
     },
 
 
@@ -48,14 +52,18 @@ export const styles = StyleSheet.create({
     TouchableOpacityDrinks:{
         backgroundColor:'#04C23A',
         width:104,
-        height: 21,
-        borderRadius: 30,
+        height: 25,
+        marginTop: -17,
+        borderRadius: 111,
         justifyContent:"center",
         alignItems:"center",
+        borderColor:"#000000",
+        borderStyle:"solid",
+        borderWidth: 1,
     },
 
    textComprar:{
-    color:'#fff'
+    color:'#000000'
 
    }
         

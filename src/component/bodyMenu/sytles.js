@@ -6,7 +6,7 @@ export const styles = StyleSheet.create ({
     bobyMenu:{
     width: 363,
     height: 59,
-    backgroundColor:"rgba(70,70,70,0.1)",
+    backgroundColor:"#C0C0C0",
     borderRadius:30,
     flexDirection:'row',
     justifyContent:"center",

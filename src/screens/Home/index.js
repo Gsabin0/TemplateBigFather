@@ -27,32 +27,29 @@ export function Home() {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Octicons name="three-bars" size={24} color="#fff" />
+        <Octicons name="three-bars" size={24} color="#000000" />
         <View style={styles.search}>
-        <AntDesign name="search1" size={24} color="#FFF" />
+        <AntDesign name="search1" size={24} color="#000000" />
         <TextInput style={styles.input}></TextInput>
         </View>
       </View>
       <View style={styles.viewTitle}>
-        <Text style={styles.textTitle}>Encontre sua bebida favorita e compre no melhor valor</Text>
+        <Text style={styles.textTitle}>Diga nao aos trabalhos repetitivos</Text>
       </View>
     <ScrollView>
       <View style={styles.viewSemiTitleGin}>
-        <Text style={styles.textSemiTitle}>Gin</Text>
+        <Text style={styles.textSemiTitle}>Bots</Text>
       </View>
       <View style={styles.boby}>
         <ItensBebidas/>
         <ItensBebidas />
-      </View>
-      <View style={styles.viewSemiTitleGin}>
-        <Text style={styles.textSemiTitle}>Whisky</Text>
       </View>
       <View style={styles.boby}>
         <ItensBebidas />
         <ItensBebidas />
       </View>
       <View style={styles.viewtextTitleVideo}>
-        <Text style={styles.textTitle}>Conheça nosso espaço para tomar seu drink de qualidade</Text>
+        <Text style={styles.textTitle}>Veja um dos nossos trabalhos em execução</Text>
       </View>
       <VideoCastis></VideoCastis>
     </ScrollView>
