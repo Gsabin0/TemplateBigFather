@@ -16,7 +16,7 @@ fontSize:25,
 },
 
 header:{
-marginTop:30,
+marginTop:1,
 padding:30,
 flexDirection:"row",
 justifyContent:"space-between",
@@ -43,7 +43,7 @@ search:{
 
 input:{
     width:246,
-    height:30,
+    height:15,
     marginLeft:10,  
 },
 
@@ -59,7 +59,7 @@ viewTitle:{
 
 viewSemiTitle:{
     marginLeft:35,
-    marginTop:8,
+    marginTop:1,
 },
 
 textSemiTitle:{

@@ -25,16 +25,16 @@ export function Home() {
   
 
   return (
+    
     <View style={styles.container}>
+      <View style={styles.viewTitle}>
+        <Text style={styles.textTitle}>Diga nao aos trabalhos repetitivos</Text>
+      </View>
       <View style={styles.header}>
-        <Octicons name="three-bars" size={24} color="#000000" />
         <View style={styles.search}>
         <AntDesign name="search1" size={24} color="#000000" />
         <TextInput style={styles.input}></TextInput>
         </View>
-      </View>
-      <View style={styles.viewTitle}>
-        <Text style={styles.textTitle}>Diga nao aos trabalhos repetitivos</Text>
       </View>
     <ScrollView>
       <View style={styles.viewSemiTitleGin}>
@@ -42,11 +42,27 @@ export function Home() {
       </View>
       <View style={styles.boby}>
         <ItensBebidas/>
-        <ItensBebidas />
       </View>
       <View style={styles.boby}>
-        <ItensBebidas />
-        <ItensBebidas />
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
+      </View>
+      <View style={styles.boby}>
+        <ItensBebidas/>
       </View>
       <View style={styles.viewtextTitleVideo}>
         <Text style={styles.textTitle}>Veja um dos nossos trabalhos em execução</Text>
